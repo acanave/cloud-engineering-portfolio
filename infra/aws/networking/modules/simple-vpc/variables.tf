@@ -33,12 +33,6 @@ variable "enable_nat_gateway" {
   default     = false
 }
 
-variable "aws_region" {
-  description = "AWS region where the VPC will be deployed"
-  type        = string
-  default     = "us-east-1"
-}
-
 variable "tags" {
   description = "Tags for all resources"
   type        = map(string)
