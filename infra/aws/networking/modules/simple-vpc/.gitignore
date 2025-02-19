@@ -1,0 +1,8 @@
+# Ignore Terraform files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+
+# Ignore example script
+generate_example.sh
