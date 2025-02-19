@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 module "simple_vpc" {
-  source = "../../" # Relative path from examples to module
+  source = "git::https://github.com/acanave/cloud-engineering-portfolio.git//infra/aws/networking/modules/simple-vpc?ref=main"
 
   vpc_name           = "example-vpc"
   cidr_block         = "10.0.0.0/16"
